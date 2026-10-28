@@ -24,7 +24,9 @@
       "Bash(gtimeout 5 qemu-system-aarch64 -machine virt -cpu cortex-a57 -nographic -kernel kernel/target/aarch64-unknown-none-softfloat/debug/kernel -m 128M)",
       "Bash(echo \"Exit: $?\")",
       "Bash(make build:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git rm:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
